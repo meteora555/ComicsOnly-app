@@ -1,0 +1,36 @@
+.catalog{
+    &__items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    &__item{
+        padding: 15px;
+    }
+    &__button{
+        cursor: pointer;
+        margin-right: 15px;
+        text-align: center;
+        width: 180px;
+        border-radius: 10px;
+        background-color: $lightgrey;
+        padding: 10px;
+        
+        &:hover{
+            background-color: $blue;
+            color:#fff;
+            
+        }
+    }
+    &__active{
+        background-color: $blue;
+        color:#fff;
+    }
+    &__content{
+        padding: 5px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
