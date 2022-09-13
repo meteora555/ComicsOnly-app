@@ -23,9 +23,16 @@
         background-color: #111111;
         &-item{
             &-title{
+                display: flex;
+                align-items: center;
                 color:#fff;
-                padding-top: 5px;
-                padding-bottom: 5px;
+                padding-top: 15px;
+                padding-bottom: 2px;
+                img{
+                    width: 18px;
+                    height: 18px;
+                    margin-left: 35px;
+                }
             }
             &-text{
                 color:#fff;

@@ -8,5 +8,6 @@ import Side from './Side/Side';
 
 import Catalog from '../pages/Catalog';
 import Home from '../pages/Home';
+import Reader from './Reader';
 
-export { Header, Nav, Footer, Hot, News, Latest, Side, Catalog, Home };
+export { Header, Nav, Footer, Hot, News, Latest, Side, Catalog, Home, Reader };

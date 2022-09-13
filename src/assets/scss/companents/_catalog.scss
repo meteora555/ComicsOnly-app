@@ -9,23 +9,43 @@
         padding: 15px;
     }
     &__button{
+        margin-right: 20px;
+        width: 150px;
         cursor: pointer;
-        margin-right: 15px;
-        text-align: center;
-        width: 180px;
-        border-radius: 10px;
-        background-color: $lightgrey;
-        padding: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        height: 35px;
+        text-align:center;
+        border: none;
+        background-size: 200% 50%;
+        background-image: linear-gradient(to right, $blue, #5776f2fb, $lightgrey, #0112f9);
+        
+    
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+
+
+        
         
         &:hover{
-            background-color: $blue;
-            color:#fff;
+            background-position: 100% 0;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            
             
         }
     }
     &__active{
         background-color: $blue;
-        color:#fff;
+        color:#333333;
+        box-shadow: 0 7px 15px 0 rgba(183, 156, 221, 0.803);
     }
     &__content{
         padding: 5px;

@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import HotItem from '../components/Hot/HotItem';
 
 function Catalog() {
-  const catalogItems = ['Марвел', 'ДС', 'Манга', 'Звездные Войны', 'Дисней'];
+  const catalogItems = ['Все', 'Марвел', 'ДС', 'Манга', 'Звездные Войны', 'Дисней'];
 
   const [active, setActive] = React.useState(0);
   const onSetCatalog = (index) => {
@@ -14,11 +14,15 @@ function Catalog() {
       <div className="container">
         <ul className="catalog__items">
           {catalogItems.map((name, index) => (
-            <li
-              onClick={() => onSetCatalog(index)}
-              key={name}
-              className={active === index ? 'catalog__button catalog__active' : 'catalog__button'}>
-              {name}
+            <li>
+              <button
+                onClick={() => onSetCatalog(index)}
+                key={name}
+                className={
+                  active === index ? 'catalog__button catalog__active' : 'catalog__button'
+                }>
+                {name}
+              </button>
             </li>
           ))}
         </ul>
