@@ -1,0 +1,180 @@
+{
+    "comics": [
+      {
+        "id": 0,
+        "imageTitle":"/assets/images/dc/batman/vol-3/batman-3-1.jpg",
+        "name": "Batman",
+        "vol": "3",
+        "category": 2,
+        "rating": 10
+      },
+      {
+        "id": 1,
+        "imageTitle":"/assets/images/dc/batman/vol-1/batman-1-1.jpg",
+        "name": "Batman",
+        "vol": "1",
+        "category": 2,
+        "rating": 8
+      },
+      {
+        "id": 2,
+        "imageTitle":"/assets/images/dc/batman/vol-2/batman-2-1.jpg",
+        "name": "Batman",
+        "vol": "2",
+        "category": 2,
+        "rating": 7
+      },
+      {
+        "id": 3,
+        "imageTitle":"/assets/images/dc/flash/vol-5/flash-5-1.jpg",
+        "name": "Flash",
+        "vol": "5",
+        "category": 2,
+        "rating": 8
+      },
+      {
+        "id": 4,
+        "imageTitle":"/assets/images/dc/harly/vol-1/harly-1-1.jpg",
+        "name": "Harly quinn",
+        "vol": "3",
+        "category": 2,
+        "rating": 10
+      },
+      {   
+        "id": 5,
+        "imageTitle":"/assets/images/marvel/amazing-spider-man/vol-1/spider-man-1-1.jpg",
+        "name": "Amazing Spider Man",
+        "vol": "1",
+        "category": 1,
+        "rating": 9
+      },
+      {   
+        "id": 6,
+        "imageTitle":"/assets/images/marvel/avengers/vol-8/avengers-8-1.jpg",
+        "name": "Harly quinn",
+        "vol": "8",
+        "category": 1,
+        "rating": 7
+      },
+      {   
+        "id": 7,
+        "imageTitle":"/assets/images/marvel/iron-man/iron-man-1-1.jpg",
+        "name": "Iron Man",
+        "vol": "1",
+        "category": 1,
+        "rating": 9
+      },
+      {   
+        "id": 8,
+        "imageTitle":"/assets/images/marvel/venom/vol-4/venom-4-1.jpg",
+        "name": "Harly quinn",
+        "vol": "4",
+        "category": 1,
+        "rating": 8
+      },
+      {   
+        "id": 9,
+        "imageTitle":"/assets/images/manga/berserk/berserk-1-1.jpg",
+        "name": "Berserk",
+        "vol": "1",
+        "category": 3,
+        "rating": 10
+      },
+      {   
+        "id": 10,
+        "imageTitle":"/assets/images/manga/death-note/death-note-1-1.jpg",
+        "name": "Death Note",
+        "vol": "1",
+        "category": 3,
+        "rating": 10
+      },
+      {   
+        "id": 11,
+        "imageTitle":"/assets/images/manga/gantz/gantz-1-1.png",
+        "name": "Gantz",
+        "vol": "1",
+        "category": 3,
+        "rating": 7
+      },
+      {   
+        "id": 12,
+        "imageTitle":"/assets/images/manga/magic-fight/mf-1-1.jpg",
+        "name": "Магическая битва",
+        "vol": "1",
+        "category": 3,
+        "rating": 8
+      },
+      {   
+        "id": 13,
+        "imageTitle":"/assets/images/manga/tokyo-gul/tokyo-gul-1-1.jpg",
+        "name": "Токийский гуль",
+        "vol": "3",
+        "category": 3,
+        "rating": 9
+      },
+      {   
+        "id": 14,
+        "imageTitle":"/assets/images/starwars/obi/obi-1-1.jpg",
+        "name": "Оби-Ван Кеноби",
+        "vol": "1",
+        "category": 4,
+        "rating": 6
+      },
+      {   
+        "id": 15,
+        "imageTitle":"/assets/images/starwars/qui/qui-1-1.jpg",
+        "name": "Квай-Гон-Джин",
+        "vol": "3",
+        "category": 4,
+        "rating": 8
+      },
+      {   
+        "id": 16,
+        "imageTitle":"/assets/images/starwars/rise/rise-1-1.jpg",
+        "name": "Возрождение Кайло Рена",
+        "vol": "3",
+        "category": 4,
+        "rating": 6
+      },
+      {   
+        "id": 17,
+        "imageTitle":"/assets/images/disney/chip-dail/chip-dail-1-1.jpg",
+        "name": "Чип и Дейл",
+        "vol": "1",
+        "category": 5,
+        "rating": 7
+      },
+      {   
+        "id": 18,
+        "imageTitle":"/assets/images/disney/donald/cristo/donald-1-1.jpg",
+        "name": "Дональд дак и Монте Крист",
+        "vol": "1",
+        "category": 5,
+        "rating": 6
+      },
+      {   
+        "id": 19,
+        "imageTitle":"/assets/images/disney/donald/islend/donald-1-1.jpg",
+        "name": "Дональд дак и остров сокровищ",
+        "vol": "2",
+        "category": 5,
+        "rating": 8
+      },
+      {   
+        "id": 20,
+        "imageTitle":"/assets/images/disney/ice/ice-1-1.jpg",
+        "name": "Холодное сердце",
+        "vol": "1",
+        "category": 5,
+        "rating": 10
+      },
+      {   
+        "id": 21,
+        "imageTitle":"/assets/images/disney/mickey/mickey-1-1.jpg",
+        "name": "Микки маус детектив",
+        "vol": "3",
+        "category": 5,
+        "rating": 9
+      } 
+    ]  
+  }

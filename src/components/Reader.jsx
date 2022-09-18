@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import right from '../assets/images/icons/right.png';
 import left from '../assets/images/icons/left.png';
 import up from '../assets/images/icons/up.png';
@@ -11,10 +13,10 @@ function Reader() {
       <div className="reader__wrapper">
         <div className="reader__nav">
           <button className="reader__nav-btn">
-            <a href="/">Главная</a>
+            <Link to="/">Главная</Link>
           </button>
           <button className="reader__nav-btn">
-            <a href="/">Каталог</a>
+            <Link to="/catalog">Каталог</Link>
           </button>
         </div>
         <div className="reader__info">
@@ -53,6 +55,7 @@ function Reader() {
           <img src={up} alt="up" />
         </div>
       </div>
+      <div className="reader__footer">Главная</div>
     </div>
   );
 }

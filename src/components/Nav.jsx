@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import check from '../assets/images/icons/ok.svg';
 import bookmark from '../assets/images/icons/bookmark.svg';
@@ -16,16 +17,16 @@ function Nav() {
           </a>
         </li>
         <li className="nav__item">
-          <a href="/" className="nav__item-link">
+          <Link to="/reader" className="nav__item-link">
             <img className="nav__list-img" src={bookmark} alt="note" />
             Сейчас читают
-          </a>
+          </Link>
         </li>
         <li className="nav__item">
-          <a href="/" className="nav__item-link">
+          <Link to="/catalog" className="nav__item-link">
             <img className="nav__list-img" src={catalog} alt="book" />
             Каталог
-          </a>
+          </Link>
         </li>
       </ul>
       <div className="header__search">

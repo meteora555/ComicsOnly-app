@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { Nav } from '../components';
 
 import baner from '../assets/images/banner.png';
@@ -14,9 +16,9 @@ function Header() {
       </div>
       <div className="header__wrapper">
         <div className="header__logo">
-          <a href="/" className="header__logo-link">
+          <Link to="/" className="header__logo-link">
             <img className="header__logo-img" src={logo} alt="logo" />
-          </a>
+          </Link>
         </div>
         <Nav />
         <div className="header__list">
